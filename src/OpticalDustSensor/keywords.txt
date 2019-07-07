@@ -5,7 +5,8 @@
 #######################################
 # Datatypes (KEYWORD1)
 #######################################
-OpticalDustSensor    KEYWORD1
+
+OpticalDustSensor	KEYWORD1
 
 #######################################
 # Methods and Functions (KEYWORD2)
@@ -14,7 +15,8 @@ OpticalDustSensor    KEYWORD1
 ######################################
 # Instances (KEYWORD2)
 #######################################
-Setting KEYWORD2
+
+Setting		KEYWORD2
 ReadValue	KEYWORD2
 
 #######################################
