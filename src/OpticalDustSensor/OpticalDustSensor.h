@@ -32,11 +32,11 @@ SOFTWARE.
 class OpticalDustSensor {
 public:
     OpticalDustSensor(int ledPin, int sensorPin);
-    void Setting(float samplingTime, float deltaTime, float sleepTime, float initialVoltage, float convertFactor);  //Init sensor
+    void Setting(float samplingTime, float deltaTime, float sleepTime, float voc, float sensitivity);  //Init sensor
     float ReadValue();                                                                                              //Read dust density in units of ug/m^3
 private:
     int _ledPin, _sensorPin;
-    float _samplingTime, _deltaTime, _sleepTime, _initialVoltage, _convertFactor;
+    float _samplingTime, _deltaTime, _sleepTime, _voc, _sensitivity;
     float sensorInput;
 };
 

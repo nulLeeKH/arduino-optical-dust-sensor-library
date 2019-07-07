@@ -34,12 +34,12 @@ OpticalDustSensor::OpticalDustSensor(int ledPin, int sensorPin) {
     pinMode(_ledPin, OUTPUT);
 }
 
-void OpticalDustSensor::Setting(float samplingTime, float deltaTime, float sleepTime, float initialVoltage, float convertFactor) {
+void OpticalDustSensor::Setting(float samplingTime, float deltaTime, float sleepTime, float voc, float sensitivity) {
     _samplingTime = samplingTime;
     _deltaTime = deltaTime;
     _sleepTime = sleepTime;
-    _initialVoltage = initialVoltage;
-    _convertFactor = convertFactor;
+    _voc = voc;
+    _sensitivity = sensitivity;
 }
 
 float OpticalDustSensor::ReadValue() {
@@ -51,7 +51,7 @@ float OpticalDustSensor::ReadValue() {
     delayMicroseconds(_sleepTime);
     //Measure dust density in air
 
-    sensorInput = ((sensorInput*5.0/1024.0)-_initialVoltage)/_convertFactor;
+    sensorInput = ((sensorInput*5.0/1024.0)-_voc)/_sensitivity;
     //Change the unit to V and change the unit to ug/m^3
 
     return sensorInput;
