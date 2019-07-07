@@ -12,10 +12,6 @@ OpticalDustSensor	KEYWORD1
 # Methods and Functions (KEYWORD2)
 #######################################
 
-######################################
-# Instances (KEYWORD2)
-#######################################
-
 Setting		KEYWORD2
 ReadValue	KEYWORD2
 
