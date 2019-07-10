@@ -26,9 +26,9 @@
 
 #include <OpticalDustSensor.h>
 
-OpticalDustSensor dSensor(0, 2);
+OpticalDustSensor dSensor(2, 0);
 //Create dustsensor object to get data from dustsensor
-//Attaches the dustsensor on pin A0 and D2 to the servo dustsensor
+//Attach the dustsensor on D2 to LED and A0 to Vo
 
 float dustDensity;
 
