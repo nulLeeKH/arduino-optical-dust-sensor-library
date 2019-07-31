@@ -2,7 +2,7 @@
 
 ## About
 
-A library for arduino to measure dust density with optical dust sensors.
+The library for arduino to measure dust density with optical dust sensors.
 
 ## Functions
 
