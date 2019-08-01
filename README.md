@@ -1,5 +1,5 @@
 # arduino-optical-dust-sensor-library
-The library for arduino to measure dust density with optical dust sensors.
+The arduino library to measure dust density with optical dust sensors.
 
 ## Functions
 
