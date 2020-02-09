@@ -3,7 +3,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/nulLeeKH/arduino-optical-dust-sensor-library.svg)
 
 # arduino-optical-dust-sensor-library
-The arduino library to measure dust density with optical dust sensors.
+The arduino library to measure dust density with optical dust sensors
 
 ## Functions
 
